@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Войти в аккаунт</title>
+
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/auth.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="авторизация, вход, личный кабинет, пользователь">
+    <!--Заменить текст-->
+    <meta name="description" content="Войдите в свой аккаунт для доступа к персональным настройкам и функциям.">
+    <meta name="referrer" content="no-referrer">
+    <meta property="og:title" content="Вход в аккаунт">
+    <!--Заменить текст-->
+    <meta property="og:description" content="Войдите в свой аккаунт для доступа к персональным настройкам и функциям.">
+    <!--Заменить путь к изображению-->
+    <meta property="og:image" content="URL_изображения_предпросмотра">
+    <meta property="og:type" content="website">
+    <!--Заменить URL страницы-->
+    <meta property="og:url" content="URL_страницы">
+    <!--Заменить путь к фавикону-->
+    <link rel="icon" type="image/png" href="путь_к_фавикону">
+
+
+</head>
+
+<body>
+    <!--WRAPPER-->
+    <main class="wrapper">
+        <div class="main__container">
+
+        <!--BRANDING CONTAINER-->
+        <section class="branding__container">
+            <div class="logo__container">
+                <img class="auth__page__logo" src="/images/auth-page-logo.svg" alt="Logo image">
+            </div>
+            <div class="text__container">
+                <p class="text-slide-in school-text-tertiary">SCHOOL5A</p>
+                <p class="text-slide-in school-text-secondary">SCHOOL5A</p>
+                <p class="text-slide-in school-text">SCHOOL5A</p>
+            </div>
+        </section>
+
+        <!--LOGIN CONTAINER-->
+        <section class="login__container">
+            <div class="login__form">
+                <div class="login__text__content">
+                    <p class="login__greeting__text">Welcome to School 5A</p>
+                    <p class="login__action__text">Пожалуйста, введите логин и пароль!</p>
+                </div>
+                <div class="input__group">
+                    <div class="login__form__container">
+                        <img class="login-form-user-icon" src="/images/login-form-action-icons/login-form-user-icon.svg" alt="Image of login form user icon">
+                        <input type="text" id="login" placeholder="Login">
+                    </div>
+
+                    <div class="password__form__container">
+                        <img class="login-form-lock-icon" src="/images/login-form-action-icons/login-form-lock-icon.svg" alt="Image of login form lock icon">
+                        <input type="password" id="password" placeholder="Password">
+                        <img id="togglePassword" class="login-form-eye-icon" src="/images/login-form-action-icons/login-form-eye-icon.svg" alt="Image of login form eye icon">
+                    </div>
+
+                    <div class="login-controls">
+                        <button class="submit__btn">Log in<img class="login-form-arrow-icon" src="/images/login-form-action-icons/login-form-arrow-icon.svg" alt="Image of login form arrow icon"></button>
+                        <button class="reset__password__btn">Забыли пароль?</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+    </main>
+
+
+    <script src="/javascript/auth.js"></script>
+</body>
+
+</html>
